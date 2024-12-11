@@ -1,0 +1,6 @@
+USER:
+  NAME: John Doe
+  EMAIL: john.doe@example.com
+  ROLES:
+    - admin
+    - editor
