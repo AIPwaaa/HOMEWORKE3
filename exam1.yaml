@@ -1,5 +1,4 @@
-HOST: localhost
-PORT: 8080
-ENDPOINTS:
-  - /api/v1
-  - /health
+PARAMETERS:
+  - param1: 10
+  - param2: "value"
+  - param3: [1, 2, 3]

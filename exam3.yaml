@@ -1,5 +1,9 @@
-DEVICE_ID: ABC123
-SENSORS:
-  TEMPERATURE: 25
-  HUMIDITY: 60
-IS_ONLINE: true
+server:
+  listen: 80
+  servername: example.com
+  location:
+    - A:
+        root: varwwwhtml
+        index: indexhtml
+    - Bapi:
+        proxypass: httpbackend8080

@@ -1,6 +1,9 @@
-USER:
-  NAME: John Doe
-  EMAIL: john.doe@example.com
-  ROLES:
-    - admin
-    - editor
+database:
+  host: localhost
+  port: 5432
+  name: mydb
+  user: admin
+  password: "123456"
+  settings:
+    maxconnections: 100
+    sharedbuffers: "128MB"
